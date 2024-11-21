@@ -1,3 +1,12 @@
 name: hal_realtek
 build:
   cmake: .
+
+blobs:
+  - path: fp/drivers/libudc.a
+    sha256: a4885cb12a3c6d32e48f3d14df4c0821f9ba952f7a96868223e54509186c2304
+    type: lib
+    version: '1.0.0'
+    license-path: LICENSE
+    url: https://github.com/RtkFP/rtkfp_lib/raw/4f560d70dd181b9ae073716289946539f7a2150c/drivers/usb/udc/libudc.a
+    description: "Binary libraries supporting the RTS5816 series usb device driver"
